@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -14,30 +14,26 @@ body {
 .toolbar-container {
   height: 48px;
   width: 375px;
-  left: 0px;
   top: 44px;
-  border-radius: 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .logo-heading {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0.1em;
   text-align: center;
-  color: #6070FF;
+  color: hsl(234, 100%, 69%);
 }
 
 .headline {
   height: 604.0000610351562px;
   width: 375px;
-  left: 0px;
   top: 92px;
-  border-radius: 0px;
   padding: 114px, 24px, 114px, 24px;
 }
 
@@ -47,51 +43,42 @@ body {
   left: 24px;
   top: 114px;
   border-radius: nullpx;
-
 }
 
 .intro {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  /* or 130% */
   display: flex;
   align-items: center;
-  /* Neutrals/N800 */
-  color: #172B4D;
+  color: hsl(218, 54%, 20%);
 }
 
 .headline p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-  /* Neutrals/N600 */
-  color: #344563;
+  color: hsl(218, 31%, 30%);
   text-align: left;
 }
 
 .connect {
   height: 24px;
   width: 117px;
-  left: 0px;
-  top: 0px;
   border-radius: nullpx;
 }
 
 .connect h1 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-  /* Primary/B300 */
-  color: #7F8CFF;
+  color: hsl(234, 100%, 75%);
 }
 
 .social-links {
@@ -99,7 +86,6 @@ body {
   width: 170.1666717529297px;
   left: 24px;
   top: 470px;
-  border-radius: 0px;
 }
 
 .social-links ul {
@@ -112,7 +98,6 @@ body {
   width: 462px;
   left: -34px;
   top: 103.9993896484375px;
-  border-radius: 0px;
 }
 
 .rectangle4 {
@@ -121,10 +106,8 @@ body {
   height: 22.02px;
   left: 294px;
   top: 15.79px;
-  /* Primary/B50 */
-  background: #EBEBFF;
+  background: hsl(240, 100%, 96%);
   transform: rotate(-30deg);
-
 }
 
 .rectangle5 {
@@ -133,32 +116,19 @@ body {
   height: 12.18px;
   left: 191.82px;
   top: 653px;
-  /* Primary/B50 */
-  background: #EBEBFF;
+  background: hsl(240, 100%, 96%);
   transform: rotate(23.34deg);
 }
 
 .rectangle7 {
-  /* Rectangle 7 */
   position: absolute;
   width: 26.46px;
   height: 4.73px;
   left: 127.18px;
   top: 11.59px;
   display: flex;
-  /* Primary/B400 */
-  background: #6070FF;
+  background: hsl(234, 100%, 69%);
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
-}
-
-.ellipse11 {
-  position: absolute;
-  width: 38.5px;
-  height: 12.07px;
-  left: 341.76px;
-  top: 66.69px;
-  background: #6070FF;
-  transform: rotate(-6055.88deg);
 }
 
 .ellipse4 {
@@ -167,8 +137,7 @@ body {
   height: 10px;
   left: 132.98px;
   top: 155.81px;
-  /* Primary/B100 */
-  background: #CBCDFF;
+  background: #cbcdff;
   transform: rotate(852.97deg);
 }
 
@@ -178,18 +147,17 @@ body {
   height: 19.25px;
   left: 16.04px;
   top: 161.47px;
-  background: #6070FF;
+  background: hsl(234, 100%, 69%);
   transform: rotate(-156.88deg);
 }
 
 .ellipse12 {
-  /* Ellipse 12 */
   position: absolute;
   width: 24.14px;
   height: 12.07px;
   left: 341.76px;
   top: 546.69px;
-  background: #6070FF;
+  background: hsl(234, 100%, 69%);
   transform: rotate(-176.08deg);
 }
 
@@ -199,8 +167,7 @@ body {
   height: 105px;
   left: 323px;
   top: 152.24px;
-  /* Primary/B400 */
-  background: #6070FF;
+  background: hsl(234, 100%, 69%);
   transform: rotate(-1906.08deg);
 }
 
@@ -210,10 +177,8 @@ body {
   height: 15px;
   left: 53px;
   top: 645px;
-  /* Neutrals/N0 */
-  background: #FFFFFF;
-  /* Primary/B100 */
-  border: 1px solid #CBCDFF;
+  background: hsl(0, 0%, 100%);
+  border: 1px solid hsl(238, 100%, 90%);
   box-sizing: border-box;
 }
 
@@ -223,10 +188,8 @@ body {
   height: 11px;
   left: 298px;
   top: 315px;
-  /* Neutrals/N0 */
-  background: #FFFFFF;
-  /* Primary/B100 */
-  border: 1px solid #CBCDFF;
+  background: hsl(0, 0%, 100%);
+  border: 1px solid hsl(238, 100%, 90%);
   box-sizing: border-box;
 }
 
@@ -236,8 +199,7 @@ body {
   height: 9.3px;
   left: -34px;
   top: 141.49px;
-  /* Primary/B50 */
-  background: #EBEBFF;
+  background: hsl(240, 100%, 96%);
   transform: rotate(-46.14deg);
 }
 
@@ -247,8 +209,6 @@ body {
   height: 30.1px;
   left: 332.18px;
   top: 540.44px;
-  background: #EBEBFF;
+  background: hsl(240, 100%, 96%);
   transform: rotate(69.41deg);
 }
-
-/* --- End Header View  */  
