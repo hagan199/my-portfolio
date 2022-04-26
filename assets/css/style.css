@@ -106,14 +106,3 @@ a {
   display: flex;
   justify-content: space-between;
 }
-
-.rectangle4 {
-  position: absolute;
-  width: 95.58px;
-  height: 22.02px;
-  left: 294px;
-  top: 165.79px;
-  background: hsl(240, 100%, 96%);
-  transform: rotate(-30deg);
-  background-repeat: no-repeat;
-}
