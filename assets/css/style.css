@@ -1,7 +1,6 @@
 body {
   background-repeat: no-repeat;
   padding: 24px;
-
 }
 
 .toolbar {
@@ -26,7 +25,6 @@ a {
   text-decoration: none;
 }
 
-
 .headline {
   display: flex;
   flex-direction: column;
@@ -38,10 +36,10 @@ a {
   background-image: url("/assets/header-shapes.png");
   background-repeat: no-repeat;
 }
-.toolbar nav{
+
+.toolbar nav {
   display: flex;
   justify-content: space-between;
-  justify-align: space-between;
 }
 
 .intro {
