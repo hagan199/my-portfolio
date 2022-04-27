@@ -10,7 +10,29 @@ Linters such as :
 2. WebHint
 3. Lighthouse
 
-👤 **Author1**
+# Getting Started
+
+- Create a new repo
+- Create a new branch according to the GitHub flow rules.
+- Add linters
+- Add a git ignore file
+- Add HTML & CSS files
+- Open a pull request
+
+### Prerequisites
+
+- Git. Which is a open source distributed version control system designed for source code management.
+- A text editor (e.g Visual Studio Code, Vim.)
+- A web browser (e.g Chrome, Safari, Mozilla Firefox.)
+- Live Server which is a web extension that helps you to live reload feature for dynamic content (PHP, Node.js, ASPNET)
+
+### Setup
+
+- Using git, clone the code to your machine or download a Zip File.
+
+👤 **Authors**
+
+👤 Emmanuel Hagan
 
 - GitHub: (https://github.com/hagann109)
 - Twitter: (https://twitter.com/emmahagan199)
@@ -20,8 +42,18 @@ Linters such as :
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+- Contributions, issues, and feature requests are welcome!
+
+- Feel free to check the [https://github.com/hagan199/my-portfolio/issues].
+
+https://github.com/hagan199/my-portfolio/issues
+## Acknowledgments
+
+- Microverse
+- Inspiration
+
 
 ## 📝 License
 
-This project is Bejr Gallery licensed.
+
+- This project is [MIT](./MIT.md) licensed.--
