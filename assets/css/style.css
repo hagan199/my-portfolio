@@ -1,5 +1,4 @@
 
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -18,7 +17,6 @@
   color: var(--color-accent);
   font-size: 16px;
 }
-
 
 .headline-container {
   display: flex;
@@ -66,8 +64,6 @@
 .headline-icon {
   padding: 0.7rem;
 }
-
-
 
 .card {
   display: flex;
@@ -118,7 +114,7 @@
 
 .card-body p {
   margin: 0.5rem 1rem 0 0;
-  font-family:  var(--font-family-style);
+  font-family: var(--font-family-style);
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -160,14 +156,12 @@
   color: var(--white);
 }
 
-
 .about-page {
   background: var(--white);
   border-top-right-radius: 75px;
   justify-content: center;
   align-items: flex-start;
   max-width: 100rem;
-  /* position: absolute; */
   padding: 2.5rem;
 }
 
@@ -175,11 +169,10 @@
   color: var(--color-headings);
   font-size: 4rem;
   margin-top: 5rem;
-
 }
 
 .about-page p {
-  font-family:  var(--font-family-style);
+  font-family: var(--font-family-style);
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -187,7 +180,7 @@
   color: hsl(218, 31%, 30%);
   flex: none;
   order: 1;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .about-button {
