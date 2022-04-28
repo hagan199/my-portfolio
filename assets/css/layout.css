@@ -29,3 +29,14 @@
   left: 375px;
   top: 4769px;
 }
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+a {
+  font-family: 'Poppins', sans-serif;
+}
