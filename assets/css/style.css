@@ -100,7 +100,7 @@
   margin-top: 1rem;
 }
 
-.text-normal {
+.text {
   color: var(--text-color);
   font-size: 1.4rem;
   font-weight: 600;
