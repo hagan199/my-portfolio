@@ -10,11 +10,10 @@
   --color-accent: #6070ff;
   --color-text: #7f8cff;
   --color-headings: #172b4d;
-  --color-paragraphs:  hsl(218, 31%, 30%);
+  --color-paragraphs: hsl(218, 31%, 30%);
   --white: #fff;
   --border: border-bottom-left-radius;
   --font-family-style: "Poppins", sans-serif;
-
 }
 
 *,
@@ -40,13 +39,13 @@ a {
   font-family: var(--font-family-style);
 }
 
-
 body {
-  font-family:  var(--font-family-style);
+  font-family: var(--font-family-style);
   font-size: 1.6rem;
   background: var(--color-body);
 }
 
+/* Header  Base Layout Section */
 .header {
   background: var(--white);
   position: fixed;
@@ -56,6 +55,7 @@ body {
   z-index: 1;
 }
 
+/* Headline  Base Layout Section */
 .headline-section {
   position: relative;
   height: 100vh;
@@ -66,6 +66,7 @@ body {
   border-bottom-left-radius: 75px;
 }
 
+/* Work  Base Layout Section */
 .works-section {
   display: grid;
   grid-template-columns: 1fr;
