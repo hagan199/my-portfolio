@@ -352,7 +352,7 @@
   color: hsl(234, 100%, 69%);
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  background: #FFFFFF;
+  background-color: hsl(0, 0%, 100%);
   border-radius: 8px;
 }
 
@@ -363,7 +363,7 @@
 
 #get-submit:active {
   background-color: hsl(235, 72%, 48%);
-  color: #ffffff;
+  color: hsl(0, 0%, 100%);
 }
 
 #get-submit:disabled {
@@ -372,5 +372,5 @@
 }
 
 .contact-form-holder p {
-  color: #ffffff;
+  color: #fff;
 }
