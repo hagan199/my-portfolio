@@ -210,7 +210,7 @@
 .language-subsections li {
   width: 303px;
   height: 66.72px;
-  background-color: #f7f7f9;
+  background-color: hsl(240, 14%, 97%);
   margin-top: 0.8rem;
   display: flex;
   align-items: center;
@@ -240,7 +240,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
-  background-color: #f7f7f9;
+  background-color: hsl(240, 14%, 97%);
   padding: 10px;
   border-radius: 5px;
 }
@@ -273,4 +273,102 @@
 
 .lang .lang-exp .no-1 span i {
   color: #acb7c3;
+}
+
+.contact-form {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.contact-form h2 {
+  margin: 103px 24px 10px 24px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+
+.contact-form p {
+  margin: 12px 24px 30px 24px;
+  font-family: var(--font-family-style);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: hwb(240 92% 0%);
+}
+
+.contact-form-holder {
+  background-color: hsl(234, 100%, 69%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/assets/image/contact-shape.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5em;
+}
+
+.form-contact {
+  width: 100%;
+  text-align: center;
+  max-width: 447px;
+}
+
+.li-form {
+  margin: 10px 24px;
+  text-align: left;
+}
+
+#name_form,
+#message,
+#email_form {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding-left: 5px;
+  width: 100%;
+  border: none;
+  color: #172b4d;
+  font-family: var(--font-family-style);
+  font-size: 17px;
+}
+
+#message {
+  height: 170px;
+}
+
+#get-submit {
+  width: 140px;
+  height: 48px;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  color: hsl(234, 100%, 69%);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+#get-submit:hover {
+  background-color: hsl(234, 100%, 69%);
+  color: #fff;
+}
+
+#get-submit:active {
+  background-color: hsl(235, 72%, 48%);
+  color: #fff;
+}
+
+#get-submit:disabled {
+  border: 1px solid hsl(216, 14%, 79%);
+}
+
+.contact-form-holder p {
+  color: #fff;
 }
