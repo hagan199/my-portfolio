@@ -210,7 +210,7 @@
 .language-subsections li {
   width: 303px;
   height: 66.72px;
-  background-color: #f7f7f9;
+  background-color: hsl(240, 14%, 97%);
   margin-top: 0.8rem;
   display: flex;
   align-items: center;
@@ -240,7 +240,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
-  background-color: #f7f7f9;
+  background-color: hsl(240, 14%, 97%);
   padding: 10px;
   border-radius: 5px;
 }
@@ -275,38 +275,35 @@
   color: #acb7c3;
 }
 
-
 .contact-form {
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .contact-form h2 {
   margin: 103px 24px 10px 24px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0;
   text-align: center;
 }
 
 .contact-form p {
   margin: 12px 24px 30px 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family-style);
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0;
   text-align: center;
-  color: #ebebff;
+  color: hwb(240 92% 0%);
 }
 
 .contact-form-holder {
-  background-color: #6070ff;
-  background-image: url('../img/contact-shape.png');
+  background-color: hsl(234, 100%, 69%);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -338,7 +335,7 @@
   width: 100%;
   border: none;
   color: #172b4d;
-  font-family: 'poppins', sans-serif;
+  font-family: var(--font-family-style);
   font-size: 17px;
 }
 
@@ -351,23 +348,12 @@
   height: 48px;
   margin-top: 10px;
   margin-bottom: 45px;
-  color: #6070ff;
-  background-color: #fff;
+  color: hsl(234, 100%, 69%);
+  background-color: hsl(0, 0%, 100%);
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 #get-submit:hover {
-  background-color: #6070ff;
-  color: #fff;
+  background-color: hsl(234, 100%, 69%);
+  color: hsl(0, 0%, 100%);
 }
-
-#get-submit:active {
-  background-color: #2230d2;
-  color: #fff;
-}
-
-#get-submit:disabled {
-  background-color: #fff;
-  border: 1px solid #c1c7d0;
-}
-
