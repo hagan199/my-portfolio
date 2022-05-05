@@ -355,18 +355,19 @@
   border-radius: 8px;
 }
 
+
 #get-submit:hover {
-  background-color: hsl(231, 7%, 58%);
-  color: hwb(0 100% 0%);
+  background-color: hsl(234, 100%, 69%);
+  color: #fff;
 }
 
 #get-submit:active {
   background-color: hsl(235, 72%, 48%);
-  color: hsl(0, 0%, 100%);
+  color: #fff;
 }
 
 #get-submit:disabled {
-  background-color: hwb(0 100% 0%);
+  background-color: #ffffff;
   border: 1px solid hsl(216, 14%, 79%);
 }
 
