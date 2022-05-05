@@ -306,6 +306,7 @@
   background-color: hsl(234, 100%, 69%);
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url('/assets/image/contact-shape.png');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -356,7 +357,7 @@
 }
 
 #get-submit:hover {
-  background-color: hsl(234, 100%, 69%);
+  background-color: hsl(231, 7%, 58%);
   color: hwb(0 100% 0%);
 }
 
@@ -368,4 +369,8 @@
 #get-submit:disabled {
   background-color: hwb(0 100% 0%);
   border: 1px solid hsl(216, 14%, 79%);
+}
+
+.contact-form-holder p {
+  color: #ffffff;
 }
