@@ -1,8 +1,9 @@
 body {
-  background-color: var(--white);
+
   width: 100%;
   font-family: var(--font-family-style);
   position: relative;
+  background: hsl(0, 0%, 90%);
 }
 
 .top-mob {
@@ -84,7 +85,7 @@ header {
 }
 
 .languages {
-  font-family: var(--font-family-style);
+  font-family: v;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -330,6 +331,7 @@ hr {
 
 .contact-form {
   background-color: var(--white);
+  background-image: url('/assets/background-desk.png');
 }
 
 .contact-form h2 {
@@ -357,11 +359,7 @@ hr {
 }
 
 .contact-form-holder {
-  background-image:
-    image-set(
-      url('/assets/contact-shape.png') 1x,
-      url('/assets/contact-shape.png') 2x
-    );
+  background-image: url('/assets/background-desk.png');
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: cover;
