@@ -1,5 +1,4 @@
 body {
-
   width: 100%;
   font-family: var(--font-family-style);
   position: relative;
@@ -85,7 +84,7 @@ header {
 }
 
 .languages {
-  font-family: v;
+  font-family: var(--font-family-style);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
