@@ -11,8 +11,7 @@
   --color-text: #7f8cff;
   --color-headings: #172b4d;
   --color-paragraphs: hsl(218, 31%, 30%);
-  --white: #fff;
-  --border: border-bottom-left-radius;
+  --white: #ffffff;
   --font-family-style: "Poppins", sans-serif;
 }
 
@@ -39,37 +38,4 @@ a {
   font-family: var(--font-family-style);
 }
 
-body {
-  font-family: var(--font-family-style);
-  font-size: 1.6rem;
-  background: var(--color-body);
-}
 
-/* Header  Base Layout Section */
-.header {
-  background: var(--white);
-  position: fixed;
-  top: 0;
-  height: 5rem;
-  width: 100%;
-  z-index: 1;
-}
-
-/* Headline  Base Layout Section */
-.headline-section {
-  position: relative;
-  height: 100vh;
-  background-image: url("/assets/header-shapes-mobile.jpg");
-  object-fit: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  border-bottom-left-radius: 75px;
-}
-
-/* Work  Base Layout Section */
-.works-section {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-  margin-top: 10rem;
-}
