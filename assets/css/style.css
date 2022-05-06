@@ -48,7 +48,7 @@ nav {
 
 .nav-desk-li a {
   padding-right: 32px;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family-style);
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -84,7 +84,7 @@ header {
 }
 
 .languages {
-  font-family: 'Poppins';
+  font-family: var(--font-family-style);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -100,7 +100,7 @@ header {
 .connect:hover,
 .connect:active {
   color: #7f8cff;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family-style);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -157,7 +157,7 @@ header {
 }
 
 .work-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family-style);
   font-weight: 800;
   font-size: 32px;
   line-height: 44px;
@@ -233,7 +233,7 @@ header {
   border-radius: 8px;
   padding: 12px;
   margin: 15px 0 15px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family-style);
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
@@ -285,7 +285,7 @@ header {
   align-items: center;
   justify-content: space-between;
   row-gap: 33em;
-  font-family: 'Poppins';
+  font-family: var(--font-family-style);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -335,7 +335,7 @@ hr {
 .contact-form h2 {
   margin: 103px 24px 10px 24px;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family-style);
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -346,7 +346,7 @@ hr {
 
 .contact-form p {
   margin: 12px 24px 30px 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family-style);
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
