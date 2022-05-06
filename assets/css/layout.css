@@ -11,7 +11,7 @@
   --color-text: #7f8cff;
   --color-headings: #172b4d;
   --color-paragraphs: hsl(218, 31%, 30%);
-  --white: #ffffff;
+  --white: #fff;
   --font-family-style: "Poppins", sans-serif;
 }
 
@@ -37,5 +37,3 @@ li,
 a {
   font-family: var(--font-family-style);
 }
-
-
