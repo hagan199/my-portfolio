@@ -72,21 +72,6 @@ body {
   border-radius: nullpx;
 }
 
-.connect h1 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: hsl(234, 100%, 75%);
-}
-
-.social-links {
-  height: 20.000062942504883px;
-  width: 170.1666717529297px;
-  left: 24px;
-  top: 470px;
-}
 
 .social-links ul {
   display: flex;
