@@ -142,7 +142,7 @@ Open index.html using live server extension
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 Maris Kapuka
+👤 Emmanuel Hagan
 
 - GitHub: [hagan199](https://github.com/hagan199)
 
