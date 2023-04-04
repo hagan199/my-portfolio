@@ -1,59 +1,179 @@
-# Portfolio
 
-This is my Microverse project called "Portfolio" (Mobile and Desktop version) built using HTML and CSS only.
 
-Built with: HTML and CSS
 
-Linters such as :
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-1. Sytle Lint
-2. WebHint
-3. Lighthouse
+Modify this file to match your project and remove sections that don't apply.
 
-# Getting Started
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-- Create a new repo
-- Create a new branch according to the GitHub flow rules.
-- Add linters
-- Add a git ignore file
-- Add HTML & CSS files
-- Open a pull request
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+
+# 📖 [About-Myself] <a name=About-Myself></a>
+
+
+**[About-Myself]** is a simple project built with html and css showing responsiveness for mobile version. It showa my accomplishments and skills as a developer.
+
+## 🛠 Built With
+1. Html
+2. Css
+3. Linters
+
+## Tech Stack <a name="tech stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.org/">Html</a></li>
+    <li><a href="https://css.org/">Css</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Database</summary>
+  No database technologies were used.
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- Added index.html file
+- Added style.css file
+- Added icons from bootstrap and images
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 [Live Demo] Coming soon...
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+```bash
+git clone https://github.com/hagan199/my-portfolio.git
+cd Setup-and mobile-first
+npm install
+```
 
 ### Prerequisites
 
-- Git. Which is a open source distributed version control system designed for source code management.
-- A text editor (e.g Visual Studio Code, Vim.)
-- A web browser (e.g Chrome, Safari, Mozilla Firefox.)
-- Live Server which is a web extension that helps you to live reload feature for dynamic content (PHP, Node.js, ASPNET)
+In order to run this project you need:
+- Web browser
+- Have visual studio code installed
+- Install node.js
+- Install git
+- You need to Go Live
 
 ### Setup
 
-- Using git, clone the code to your machine or download a Zip File.
-
-👤 **Authors**
-
-👤 Emmanuel Hagan
-
-- GitHub: (https://github.com/hagann109)
-- Twitter: (https://twitter.com/emmahagan199)
-- LinkedIn:(https://linkedin.com/inemma199)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-- Contributions, issues, and feature requests are welcome!
-
-- Feel free to check the [https://github.com/hagan199/my-portfolio/issues].
-
-https://github.com/hagan199/my-portfolio/issues
-## Acknowledgments
-
-- Microverse
-- Inspiration
+Clone this repository to your desired folder:
 
 
-## 📝 License
+```sh
+  cd my-folder
+  git clone https://github.com/hagan199/my-portfolio.git
+```
+
+### Install
+
+Install this project with this command:
+
+```sh
+  cd my-project
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+Open index.html using live server extension
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-- This project is [MIT](./MIT.md) licensed.--
+## 👥 Authors <a name="authors"></a>
+
+
+👤 Maris Kapuka
+
+- GitHub: [hagan199](https://github.com/hagan199)
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Develop the Desktop Version
+- Add styling
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please give it a star.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse and my coding partners with all the resources they provided.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.txt) licensed<a name="readme-top"></a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
