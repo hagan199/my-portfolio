@@ -44,22 +44,15 @@
   </ul>
 </details>
 
-<details>
-  <summary>Database</summary>
-  No database technologies were used.
-</details>
-
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-```bash
 git clone https://github.com/hagan199/my-portfolio.git
 cd Setup-and mobile-first
 npm install
-```
+
 
 ### Prerequisites
 
@@ -70,23 +63,12 @@ In order to run this project you need:
 - Install git
 - You need to Go Live
 
-### Setup
-
-Clone this repository to your desired folder:
-
-```sh
-  cd my-folder
-  git clone https://github.com/hagan199/my-portfolio.git
-```
-
-### Install
+### Install Node
 
 Install this project with this command:
 
-```sh
   cd my-project
   npm install
-```
 
 ### Usage
 
