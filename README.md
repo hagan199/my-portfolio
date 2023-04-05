@@ -1,35 +1,4 @@
 
-
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -80,16 +49,6 @@ After you're finished please remove all the comments and instructions!
   No database technologies were used.
 </details>
 
-### Key Features <a name="key-features"></a>
-
-- Added index.html file
-- Added style.css file
-- Added icons from bootstrap and images
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 [Live Demo] Coming soon...
-
 
 <!-- GETTING STARTED -->
 
@@ -114,7 +73,6 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-
 
 ```sh
   cd my-folder
@@ -173,7 +131,7 @@ I would like to thank Microverse and my coding partners with all the resources t
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
