@@ -368,3 +368,49 @@ hr {
   border-radius: 2px;
   outline: none;
 }
+
+/*Transition And Animation*/
+.first-card {
+  position: relative; /* make the element positioned */
+  left: 0; /* initial left position */
+  transition: left 0.5s ease-in-out; /* add transition to left property */
+}
+
+/* add hover effect to the button */
+.beg-btn:hover {
+  transform: scale(1.1); /* scale up the button on hover */
+}
+
+/* add animation to slide the card to the left */
+@keyframes slide-left {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+/* apply animation on hover */
+.first-card:hover {
+  animation: slide-left 0.5s ease-in-out forwards;
+}
+
+
+.name {
+  position: relative; /* make the element positioned */
+  animation: slide-up 1s ease-in-out forwards; /* apply animation on load */
+}
+
+p {
+  opacity: 0; /* hide the element by default */
+  transition: opacity 0.5s ease-in-out; /* add transition to opacity property */
+}
+
+/* add animation to slide the name heading up */
+@keyframes slide-up {
+  0% { bottom: -100px; opacity: 0; }
+  100% { bottom: 0; opacity: 1; }
+}
+
+/* reveal the p element on hover */
+div:hover p {
+  opacity: 1;
+}
+
