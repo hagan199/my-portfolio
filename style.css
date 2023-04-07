@@ -377,6 +377,17 @@ hr {
 .beg-btn:hover {
   transform: scale(1.1); /* scale up the button on hover */
 }
+.beg-btn:hover {
+  transform: scale(1.1); /* scale up the button on hover */
+  color: #ff7b29;
+  border-radius: 50%;
+}
+
+.beg-btn {
+  background: #2db34a;
+  border-radius: 6px;
+  transition: background .2s linear, border-radius 1s ease-in 1s;
+}
 
 /* add animation to slide the card to the left */
 @keyframes slide-left {
