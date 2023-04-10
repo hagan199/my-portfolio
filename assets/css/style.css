@@ -101,7 +101,7 @@ button,
   display: inline-block;
   width: 1em;
   margin-left: 0;
-  font-size: 23px;
+  font-size: 24px;
 }
 
 .btns.live {
@@ -140,7 +140,7 @@ header {
   justify-content: center;
   align-items: center;
   transition: font-size 0.5s;
-  animation: rotateLogo 1.5s linear;
+  animation: rotateLogo 1.6s linear;
 }
 
 @keyframes rotateLogo {
@@ -166,7 +166,7 @@ header {
 }
 
 .header__container__parhead__nav__ul__responsive {
-  width: 29px;
+  width: 27px;
   height: 20px;
   cursor: pointer;
   position: relative;
