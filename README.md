@@ -37,6 +37,7 @@ The aim of this project is to build a simple personal portfolio web page while u
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML & CSS 
+- Linter
 - Git, Github and Visual Studio Code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
