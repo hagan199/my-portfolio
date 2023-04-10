@@ -278,7 +278,7 @@ header {
 
 /* end nav */
 
-/* start section_one */
+/* start sectionone */
 
 .overlay {
   background-image: url(../imgs/bg-mobile.png);
@@ -293,12 +293,12 @@ header {
   border-bottom-left-radius: 73px;
 }
 
-.section_one__heroimage > p,
-.section_one__heroimage > h1 {
+.sectionone__heroimage > p,
+.sectionone__heroimage > h1 {
   margin-bottom: 15px;
 }
 
-.section_one__heroimage > h1 {
+.sectionone__heroimage > h1 {
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
@@ -317,7 +317,7 @@ header {
   }
 }
 
-.section_one__heroimage > p {
+.sectionone__heroimage > p {
   font-size: 20px;
   color: #344563;
   animation: hiddenP 4s;
@@ -335,7 +335,7 @@ header {
   }
 }
 
-.section_one__heroimage > button {
+.sectionone__heroimage > button {
   color: #7f8cff;
   margin-bottom: 15px;
   border: 0;
@@ -354,7 +354,7 @@ header {
   margin-right: 15px;
 }
 
-/* end section_one */
+/* end sectionone */
 
 /* start pop up */
 .parpopup {
@@ -435,7 +435,7 @@ header {
   gap: 10px;
 }
 
-.work_section__container__items__item > p,
+.sectiontwo__container__items__item > p,
 .sectionthree__container__posts__post > p,
 .sectionfour__container__rows__row > p,
 .sectionfive__container__services__service > p,
@@ -473,7 +473,7 @@ header {
   margin-bottom: 15px;
 }
 
-.work_section__container__items__item > button,
+.sectiontwo__container__items__item > button,
 .sectionthree__container__posts__post > button,
 .sectionfour__container__rows__row > button,
 .sectionfive__container__services__service > button,
@@ -520,7 +520,7 @@ header {
 }
 
 /* end pop up */
-.work_section__container__items,
+.sectiontwo__container__items,
 .sectionthree__container__posts,
 .sectionfour__container__rows,
 .sectionfive__container__services {
@@ -535,27 +535,36 @@ header {
 }
 
 /* start animation and transition */
-.work_section__container__items__item__responsive,
+.sectiontwo__container__items__item__responsive,
 .sectionthree__container__posts__post__responsive,
 .sectionfour__container__rows__row__responsive,
 .sectionfive__container__services__service__responsive {
   overflow: hidden;
 }
 
-.work_section__container__items__item__responsive__respo,
+.sectiontwo__container__items__item__responsive__respo,
 .sectionthree__container__posts__post__responsive__respo,
 .sectionfour__container__rows__row__responsive__respo,
 .sectionfive__container__services__service__responsive__respo {
   transition: transform 0.5s ease-in-out;
 }
 
-.work_section__container__items__item__responsive__respo:hover,
+.sectiontwo__container__items__item__responsive__respo:hover,
 .sectionthree__container__posts__post__responsive__respo:hover,
 .sectionfour__container__rows__row__responsive__respo:hover,
 .sectionfive__container__services__service__responsive__respo:hover {
   transform: scale(1.1);
 }
 
+/* animation: imageport 0.5s;
+@keyframes imageport {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(0.5);
+  }
+} */
 
 /* end animation and transition */
 .sectionsix__container__skills {
@@ -566,7 +575,7 @@ header {
   grid-template-rows: 0fr 1fr;
 }
 
-.work_section__container__items__item > h2,
+.sectiontwo__container__items__item > h2,
 .sectionthree__container__posts__post > h2,
 .sectionfour__container__rows__row > h2,
 .sectionfive__container__services__service > h2,
@@ -753,7 +762,7 @@ header {
     height: 0;
   }
 
-  .section_one {
+  .sectionone {
     height: 916px;
   }
 
@@ -853,7 +862,7 @@ header {
   }
 
   /* end pop up */
-  .work_section__container__items,
+  .sectiontwo__container__items,
   .sectionthree__container__posts,
   .sectionfour__container__rows,
   .sectionfive__container__services {
@@ -877,7 +886,7 @@ header {
     grid-template-rows: 481px;
   }
 
-  .work_section__container__items__item__responsive,
+  .sectiontwo__container__items__item__responsive,
   .sectionthree__container__posts__post__responsive,
   .sectionfour__container__rows__row__responsive,
   .sectionfive__container__services__service__responsive {
@@ -887,7 +896,7 @@ header {
     padding: 20px;
   }
 
-  .work_section__container__items__item__responsive__respo,
+  .sectiontwo__container__items__item__responsive__respo,
   .sectionthree__container__posts__post__responsive__respo,
   .sectionfour__container__rows__row__responsive__respo,
   .sectionfive__container__services__service__responsive__respo {
