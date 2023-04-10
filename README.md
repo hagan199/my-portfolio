@@ -48,8 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://jawad-nazari.github.io/)
-- [Loom Video Link](https://www.loom.com/share/caf2e978fdc04b2489426eee6d85061d)
+- [Live Demo Link](https://hagan199.github.io/my-portfolio/)
 
 <!-- GETTING STARTED -->
 
