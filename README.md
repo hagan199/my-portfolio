@@ -7,7 +7,7 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLE OF CONTENTSs -->
 
 # 📗 Table of Contents
 
