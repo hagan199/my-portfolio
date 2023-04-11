@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Portfolio: application deploy</b></h3>
+  <h3><b>Portfolio: Accessibility</b></h3>
 
 </div>
 
@@ -142,6 +142,12 @@ This project will be used to display my portfolios:
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
+
+👤 Avatar
+leloufadel
+
+- GitHub: [leloufadel]https://github.com/leloufadel)
+
 
 Contributions, issues, and feature requests are welcome!
 
