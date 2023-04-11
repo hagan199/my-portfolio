@@ -295,6 +295,7 @@ header {
 
 .section_one__heroimage > p,
 .section_one__heroimage > h1 {
+color: color-contrast(var(--primary-background) vs #fff, #000);
   margin-bottom: 15px;
 }
 
