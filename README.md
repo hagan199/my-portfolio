@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Portfolio: Accessibility</b></h3>
+  <h3><b>Project presentation: record your video</b></h3>
 
 </div>
 
@@ -82,8 +82,8 @@ The aim of this project is to build a simple personal portfolio web page while u
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="loom"></a>
-https://www.loom.com/share/02fde90ef7a845eeb9d4f4176ae92d22
+## 🚀 Live Loom <a name="loom"></a>
+- [Live Loom Link] (https://www.loom.com/share/02fde90ef7a845eeb9d4f4176ae92d22)
 
 <!-- GETTING STARTED -->
 
