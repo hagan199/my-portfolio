@@ -82,6 +82,9 @@ The aim of this project is to build a simple personal portfolio web page while u
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="loom"></a>
+https://www.loom.com/share/02fde90ef7a845eeb9d4f4176ae92d22
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
