@@ -33,3 +33,25 @@ burger.addEventListener("click", () => {
   }
 });
 // =======
+
+burger.addEventListener("click", () => {
+  if (burger.classList.contains("change")) {
+    burger.classList.remove("change");
+  } else {
+    burger.classList.add("change");
+  }
+
+  if (iwq.classList.contains("show")) {
+    iwq.classList.remove("show");
+  } else {
+    iwq.classList.add("show");
+  }
+});
+// =======
+
+navLinks.forEach((item) => {
+  item.addEventListener("click", () => {
+    iwq.classList.remove("show");
+    burger.classList.remove("change");
+  });
+});
