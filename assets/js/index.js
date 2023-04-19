@@ -1,108 +1,108 @@
 const details = [
   {
     id: 1,
-    title: 'Tonic',
+    title: "Tonic",
     list: {
-      list1: 'CANOPY',
-      list2: 'Back End Dev',
-      list3: '2015',
+      list1: "CANOPY",
+      list2: "Back End Dev",
+      list3: "2015",
     },
-    image: 'static/imgs/three.png',
-    desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: "static/imgs/three.png",
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     lang: {
-      lang1: 'html',
-      lang2: 'css',
-      lang3: 'js',
-      lang4: 'ruby',
+      lang1: "html",
+      lang2: "css",
+      lang3: "js",
+      lang4: "ruby",
     },
-    category: 'project1',
+    category: "project1",
   },
   {
     id: 2,
-    title: 'Multi-Post Stories',
+    title: "Multi-Post Stories",
     list: {
-      list1: 'FACEBOOK',
-      list2: 'Full Stack Dev',
-      list3: '2015',
+      list1: "FACEBOOK",
+      list2: "Full Stack Dev",
+      list3: "2015",
     },
-    image: 'static/imgs/four.png',
-    desc: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    image: "static/imgs/four.png",
+    desc: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
     lang: {
-      lang1: 'html',
-      lang2: 'Ruby',
-      lang3: 'css',
-      lang4: 'javaScript',
+      lang1: "html",
+      lang2: "Ruby",
+      lang3: "css",
+      lang4: "javaScript",
     },
-    category: 'project2',
+    category: "project2",
   },
   {
     id: 3,
-    title: 'Facebook 360',
+    title: "Facebook 360",
     list: {
-      list1: 'FACEBOOK',
-      list2: 'Full Stack Dev',
-      list3: '2015',
+      list1: "FACEBOOK",
+      list2: "Full Stack Dev",
+      list3: "2015",
     },
-    image: 'static/imgs/Snapshoot Portfolio.png',
-    desc: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    image: "static/imgs/Snapshoot Portfolio.png",
+    desc: "Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     lang: {
-      lang1: 'html',
-      lang2: 'Ruby',
-      lang3: 'css',
-      lang4: 'javaScript',
+      lang1: "html",
+      lang2: "Ruby",
+      lang3: "css",
+      lang4: "javaScript",
     },
-    category: 'project3',
+    category: "project3",
   },
   {
     id: 4,
-    title: 'Uber',
+    title: "Uber",
     list: {
-      list1: 'Uber',
-      list2: 'Lead Developer',
-      list3: '2015',
+      list1: "Uber",
+      list2: "Lead Developer",
+      list3: "2015",
     },
-    image: 'static/imgs/two.png',
-    desc: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    image: "static/imgs/two.png",
+    desc: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
     lang: {
-      lang1: 'html',
-      lang2: 'Ruby',
-      lang3: 'css',
-      lang4: 'javaScript',
+      lang1: "html",
+      lang2: "Ruby",
+      lang3: "css",
+      lang4: "javaScript",
     },
-    category: 'project4',
+    category: "project4",
   },
 ];
 
 // ==========================================================================
 const burger = document.querySelector(
-  '.header__container__parhead__nav__ul__responsive',
+  ".header__container__parhead__nav__ul__responsive"
 );
-const iwq = document.querySelector('.iwq');
-const parpopup = document.querySelector('.parpopup');
-const parpopuPopup = document.querySelector('.parpopup__popup');
-const navLinks = document.querySelectorAll('.mobile-nav-links');
-const email = document.querySelector('.form__control > input#email');
-const form = document.querySelector('form');
-const emailerror = document.querySelector('#emailerror');
-const pardetail = document.querySelector('.pardetail');
+const iwq = document.querySelector(".iwq");
+const parpopup = document.querySelector(".parpopup");
+const parpopuPopup = document.querySelector(".parpopup__popup");
+const navLinks = document.querySelectorAll(".mobile-nav-links");
+const email = document.querySelector(".form__control > input#email");
+const form = document.querySelector("form");
+const emailerror = document.querySelector("#emailerror");
+const pardetail = document.querySelector(".pardetail");
 // ===========================================================================
-burger.addEventListener('click', () => {
-  if (burger.classList.contains('change')) {
-    burger.classList.remove('change');
+burger.addEventListener("click", () => {
+  if (burger.classList.contains("change")) {
+    burger.classList.remove("change");
   } else {
-    burger.classList.add('change');
+    burger.classList.add("change");
   }
 
-  if (iwq.classList.contains('show')) {
-    iwq.classList.remove('show');
+  if (iwq.classList.contains("show")) {
+    iwq.classList.remove("show");
   } else {
-    iwq.classList.add('show');
+    iwq.classList.add("show");
   }
 });
 // ============================================================================
 
 function detail(c) {
-  parpopup.style.display = 'flex';
+  parpopup.style.display = "flex";
   const update = details.filter((item) => item.category === c);
   parpopuPopup.innerHTML = `
   <div class="head">
@@ -140,32 +140,45 @@ function detail(c) {
 }
 
 function closes() {
-  parpopup.style.display = 'none';
+  parpopup.style.display = "none";
 }
 
 navLinks.forEach((item) => {
-  item.addEventListener('click', () => {
-    iwq.classList.remove('show');
-    burger.classList.remove('change');
+  item.addEventListener("click", () => {
+    iwq.classList.remove("show");
+    burger.classList.remove("change");
   });
 });
 
 window.onclick = function closePopup(event) {
   if (event.target === parpopup) {
-    parpopup.style.display = 'none';
+    parpopup.style.display = "none";
   }
 };
 
 // Form Validation
 
-form.addEventListener('submit', (e) => {
+form.addEventListener("submit", (e) => {
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
-    emailerror.style.opacity = '1';
+    emailerror.style.opacity = "1";
   }
 });
 
-pardetail.addEventListener('click', () => {
+pardetail.addEventListener("click", () => {
   detail();
   closes();
+});
+
+// Form Validation
+form.addEventListener("submit", (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    emailError.style.opacity = "1";
+  }
+});
+
+projectDetail.addEventListener("click", () => {
+  showDetails();
+  closePopup();
 });
