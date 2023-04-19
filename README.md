@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Portfolio: Accessibility</b></h3>
+  <h3><b>Portfolio: preserve data in the browser/b></h3>
 
 </div>
 
@@ -24,6 +24,7 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+
 - [🙏 Acknowledgements](#acknowledgements)
 <!-- - [❓ FAQ (OPTIONAL)](#faq) -->
 - [📝 License](#license)
