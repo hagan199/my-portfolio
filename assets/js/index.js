@@ -74,115 +74,54 @@ const details = [
 ];
 
 // ==========================================================================
-const burger = document.querySelector(
-  ".header__container__parhead__nav__ul__responsive"
-);
-const iwq = document.querySelector(".iwq");
-const parpopup = document.querySelector(".parpopup");
-const parpopuPopup = document.querySelector(".parpopup__popup");
-const navLinks = document.querySelectorAll(".mobile-nav-links");
-const email = document.querySelector(".form__control > input#email");
-const form = document.querySelector("form");
-const emailerror = document.querySelector("#emailerror");
-const pardetail = document.querySelector(".pardetail");
-// ===========================================================================
-burger.addEventListener("click", () => {
-  if (burger.classList.contains("change")) {
-    burger.classList.remove("change");
-  } else {
-    burger.classList.add("change");
-  }
 
-  if (iwq.classList.contains("show")) {
-    iwq.classList.remove("show");
-  } else {
-    iwq.classList.add("show");
-  }
+const burger = document.querySelector('.header__container__parhead__nav__ul__responsive');
+const mobileNav = document.querySelector('.iwq');
+const popupContainer = document.querySelector('.parpopup');
+const popupContent = document.querySelector('.parpopup__popup');
+const navLinks = document.querySelectorAll('.mobile-nav-links');
+const email = document.querySelector('.form__control > input#email');
+const form = document.querySelector('form');
+const emailError = document.querySelector('#emailerror');
+const projectDetail = document.querySelector('.pardetail');
+
+burger.addEventListener('click', () => {
+  burger.classList.toggle('change');
+  mobileNav.classList.toggle('show');
 });
-// ============================================================================
 
-function detail(c) {
-  parpopup.style.display = "flex";
-  const update = details.filter((item) => item.category === c);
-  parpopuPopup.innerHTML = `
-  <div class="head">
-  <span class="name">${update[0].title}</span>
-  <span id="close" onclick="closes()">&times;</span>
-</div>
-<ul>
-  <li><a href="">${update[0].list.list1}</a></li>
-  <li><a href="">${update[0].list.list2}</a></li>
-  <li><a href="">${update[0].list.list3}</a></li>
-</ul>
-<div class="popup__responsive">
-  <img src="${update[0].image}" alt="" class="responsive" />
-</div>
-<div class="types">
-  <div class="type">
-    <p>${update[0].desc}</p>
-  </div>
-  <div class="type">
-    <ul>
-      <li>${update[0].lang.lang1}</li>
-      <li>${update[0].lang.lang2}</li>
-      <li>${update[0].lang.lang3}</li>
-      <li>${update[0].lang.lang4}</li>
-    </ul>
-    <hr />
-    <div class="btns live">
-      <button class="live"><span>See live</span> <img src="static/imgs/Icon.png"/></button><button class="live">See source <i class="fab fa-github"></i></button>
-    </div>
-  </div>
-</div>
-  
-  
-  `;
+function showDetails(category) {
+  popupContainer.style.display = 'flex';
+  const selectedProject = projectDetails.find((item) => item.category === category);
+  // update popupContent.innerHTML with the selected project details
 }
-
-function closes() {
-  parpopup.style.display = "none";
-}
-
-navLinks.forEach((item) => {
-  item.addEventListener("click", () => {
-    iwq.classList.remove("show");
-    burger.classList.remove("change");
-  });
-});
-
-window.onclick = function closePopup(event) {
-  if (event.target === parpopup) {
-    parpopup.style.display = "none";
-  }
-};
-
-// Form Validation
-
-form.addEventListener("submit", (e) => {
-  if (email.value !== email.value.toLowerCase()) {
-    e.preventDefault();
-    emailerror.style.opacity = "1";
-  }
-});
-
-pardetail.addEventListener("click", () => {
-  detail();
-  closes();
-});
 
 function closePopup() {
-  popupContainer.style.display = "none";
+  popupContainer.style.display = 'none';
 }
 
 navLinks.forEach((item) => {
-  item.addEventListener("click", () => {
-    mobileNav.classList.remove("show");
-    burger.classList.remove("change");
+  item.addEventListener('click', () => {
+    mobileNav.classList.remove('show');
+    burger.classList.remove('change');
   });
 });
 
-window.onclick = function (event) {
+window.onclick = function(event) {
   if (event.target === popupContainer) {
     closePopup();
   }
 };
+
+// Form Validation
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    emailError.style.opacity = '1';
+  }
+});
+
+projectDetail.addEventListener('click', () => {
+  showDetails();
+  closePopup();
+});
