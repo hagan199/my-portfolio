@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Portfolio: Validate contact form</b></h3>
+  <h3><b>Portfolio: preserve data in the browser/b></h3>
 
 </div>
 
