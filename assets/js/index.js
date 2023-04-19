@@ -125,3 +125,41 @@ projectDetail.addEventListener('click', () => {
   showDetails();
   closePopup();
 });
+
+// Your existing JavaScript code...
+
+// Form elements
+const contactForm = document.getElementById('contact-form');
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const textareaInput = document.getElementById('textarea');
+
+// Save form data to local storage on input change
+function saveFormData() {
+  const formData = {
+    name: nameInput.value,
+    email: emailInput.value,
+    message: textareaInput.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+// Load form data from local storage
+function loadFormData() {
+  const formData = JSON.parse(localStorage.getItem('formData'));
+
+  if (formData) {
+    nameInput.value = formData.name;
+    emailInput.value = formData.email;
+    textareaInput.value = formData.message;
+  }
+}
+
+// Attach event listeners to input fields
+nameInput.addEventListener('input', saveFormData);
+emailInput.addEventListener('input', saveFormData);
+textareaInput.addEventListener('input', saveFormData);
+
+// Load form data when the page loads
+window.addEventListener('load', loadFormData);
