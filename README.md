@@ -3,7 +3,9 @@
 <div align="center">
   <br/>
 
+
   <h3><b>Portfolio: details-popup-window</b></h3>
+
 
 </div>
 
@@ -24,6 +26,7 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+
 - [🙏 Acknowledgements](#acknowledgements)
 <!-- - [❓ FAQ (OPTIONAL)](#faq) -->
 - [📝 License](#license)
@@ -176,6 +179,6 @@ I'd like to thank Microverse for providing this chance to enrich my experience.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](https://github.com/hagan199/my-portfolio/blob/validate-contact-form/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

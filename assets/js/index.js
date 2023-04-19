@@ -102,7 +102,7 @@ burger.addEventListener("click", () => {
 // ============================================================================
 
 function detail(c) {
-  parpopup.style.display = "flex";
+  parpopup.style.display = 'flex';
   const update = details.filter((item) => item.category === c);
   parpopuPopup.innerHTML = `
   <div class="head">
@@ -140,45 +140,32 @@ function detail(c) {
 }
 
 function closes() {
-  parpopup.style.display = "none";
+  parpopup.style.display = 'none';
 }
 
 navLinks.forEach((item) => {
-  item.addEventListener("click", () => {
-    iwq.classList.remove("show");
-    burger.classList.remove("change");
+  item.addEventListener('click', () => {
+    iwq.classList.remove('show');
+    burger.classList.remove('change');
   });
 });
 
 window.onclick = function closePopup(event) {
   if (event.target === parpopup) {
-    parpopup.style.display = "none";
+    parpopup.style.display = 'none';
   }
 };
 
 // Form Validation
 
-form.addEventListener("submit", (e) => {
+form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
-    emailerror.style.opacity = "1";
+    emailerror.style.opacity = '1';
   }
 });
 
-pardetail.addEventListener("click", () => {
+pardetail.addEventListener('click', () => {
   detail();
   closes();
-});
-
-// Form Validation
-form.addEventListener("submit", (e) => {
-  if (email.value !== email.value.toLowerCase()) {
-    e.preventDefault();
-    emailError.style.opacity = "1";
-  }
-});
-
-projectDetail.addEventListener("click", () => {
-  showDetails();
-  closePopup();
 });
