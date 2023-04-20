@@ -25,47 +25,45 @@
 
 <body>
   <!-- start nav -->
-<!-- start nav -->
-<header class="nav" id="nav">
-  <div class="container">
-    <div class="header__container__parhead">
-      <div class="header__container__parhead__brand">
-        <a href="#">My Logo</a>
+  <header class="nav" id="nav">
+    <div class="container">
+      <div class="header__container__parhead">
+        <div class="header__container__parhead__brand">
+          <a href="#">My Logo</a>
+        </div>
+
+        <nav class="header__container__parhead__nav">
+          <ul class="header__container__parhead__nav__ul">
+            <li>
+              <div class="header__container__parhead__nav__ul__responsive">
+                <div class="bar bar__1"></div>
+                <div class="bar bar__2"></div>
+                <div class="bar bar__3"></div>
+              </div>
+            </li>
+            <li>
+              <ul class="iwq">
+                <li>
+                  <a href="#portoflio" class="mobile-nav-links">Portoflio</a>
+                </li>
+                <li><a href="#about" class="mobile-nav-links">About</a></li>
+                <li>
+                  <a href="#contact" class="mobile-nav-links">Contact</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
       </div>
-
-      <nav class="header__container__parhead__nav">
-        <ul class="header__container__parhead__nav__ul">
-          <li>
-            <div class="header__container__parhead__nav__ul__responsive">
-              <div class="bar bar__1"></div>
-              <div class="bar bar__2"></div>
-              <div class="bar bar__3"></div>
-            </div>
-          </li>
-          <li>
-            <ul class="iwq">
-              <li>
-                <a href="#portoflio" class="mobile-nav-links">Portoflio</a>
-              </li>
-              <li><a href="#about" class="mobile-nav-links">About</a></li>
-              <li>
-                <a href="#contact" class="mobile-nav-links">Contact</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
     </div>
-  </div>
-</header>
-<!-- end nav  -->
-
-  <!-- start section_one -->
+  </header>
+  <!-- end nav -->
+  <!-- start sectionone -->
   <main>
     <section>
-      <div class="section_one" id="section_one">
+      <div class="sectionone" id="sectionone">
         <div class="overlay">
-          <div class="section_one__heroimage">
+          <div class="sectionone__heroimage">
             <h1>
               I’m Hagan<br />
               Glad to see you!
@@ -146,18 +144,18 @@
         </a>
       </div>
       <!-- end sectiontwo -->
-      <!-- start section_three -->
-      <div class="section_three pd-y" id="section_three">
-        <a class="project" data-project="project2">
+      <!-- start sectionthree -->
+      <div class="sectionthree pd-y" id="sectionthree">
+        <a href="javascript:void(0)" onclick="detail('project2')" class="project" data-project="project2">
           <div class="container">
-            <div class="section_three__container__posts">
-              <div class="section_three__container__posts__post order__2">
-                <div class="section_three__container__posts__post__responsive">
+            <div class="sectionthree__container__posts">
+              <div class="sectionthree__container__posts__post order__2">
+                <div class="sectionthree__container__posts__post__responsive">
                   <img src="./assets/imgs/four.png" alt="two"
-                    class="responsive section_three__container__posts__post__responsive__respo" />
+                    class="responsive sectionthree__container__posts__post__responsive__respo" />
                 </div>
               </div>
-              <div class="section_three__container__posts__post order__1">
+              <div class="sectionthree__container__posts__post order__1">
                 <h2>Multi-Post Stories</h2>
                 <ul class="first__ul">
                   <li>FACEBOOK</li>
@@ -181,10 +179,10 @@
           </div>
         </a>
       </div>
-      <!-- end section_three -->
+      <!-- end sectionthree -->
       <!-- start sectionfour -->
       <div class="sectionfour pd-y" id="sectionfour">
-        <a class="project">
+        <a href="javascript:void(0)" onclick="detail('project3')" class="project" data-project="project3">
           <div class="container">
             <div class="sectionfour__container__rows">
               <div class="sectionfour__container__rows__row">
@@ -220,7 +218,7 @@
       <!-- end sectionfour -->
       <!-- start sectionfive -->
       <div class="sectionfive pd-y" id="sectionfive">
-        <a class="project">
+        <a href="javascript:void(0)" onclick="detail('project4')" class="project" data-project="project1">
           <div class="container">
             <div class="sectionfive__container__services">
               <div class="sectionfive__container__services__service order__2">
@@ -368,11 +366,12 @@
     <button class="pardetail"></button>
   </div>
   <!-- end footer -->
-<!-- start js file -->
-<script src="https://kit.fontawesome.com/7280065e63.js" crossorigin="anonymous">
-</script>
-<script src="assets/js/index.js"></script>
-<!-- end js file -->
+
+  <!-- start js file -->
+  <script src="https://kit.fontawesome.com/7280065e63.js" crossorigin="anonymous">
+  </script>
+  <script src="assets/js/index.js"></script>
+  <!-- end js file -->
 </body>
 
 </html>

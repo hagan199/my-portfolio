@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Portfolio: Validate contact form</b></h3>
+  <h3><b>Portfolio: details popup window</b></h3>
 
 </div>
 
