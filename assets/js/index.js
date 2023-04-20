@@ -1,3 +1,4 @@
+// Details popup
 const details = [
   {
     id: 1,
@@ -73,7 +74,7 @@ const details = [
   },
 ];
 
-// ==========================================================================
+//Burger ==========================================================================
 const burger = document.querySelector(
   ".header__container__parhead__nav__ul__responsive"
 );
@@ -85,7 +86,7 @@ const email = document.querySelector(".form__control > input#email");
 const form = document.querySelector("form");
 const emailerror = document.querySelector("#emailerror");
 const pardetail = document.querySelector(".pardetail");
-// ===========================================================================
+// add eventlistener===========================================================================
 burger.addEventListener("click", () => {
   if (burger.classList.contains("change")) {
     burger.classList.remove("change");
@@ -99,7 +100,7 @@ burger.addEventListener("click", () => {
     iwq.classList.add("show");
   }
 });
-// ============================================================================
+// Add function details ============================================================================
 
 function detail(c) {
   parpopup.style.display = "flex";
