@@ -1,5 +1,3 @@
-// form validation
-
 const details = [
   {
     id: 1,
@@ -9,7 +7,7 @@ const details = [
       list2: 'Back End Dev',
       list3: '2015',
     },
-    image: 'static/imgs/three.png',
+    image: 'assets/imgs/three.png',
     desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     lang: {
       lang1: 'html',
@@ -27,7 +25,7 @@ const details = [
       list2: 'Full Stack Dev',
       list3: '2015',
     },
-    image: 'static/imgs/four.png',
+    image: 'assets/imgs/four.png',
     desc: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     lang: {
       lang1: 'html',
@@ -45,7 +43,7 @@ const details = [
       list2: 'Full Stack Dev',
       list3: '2015',
     },
-    image: 'static/imgs/Snapshoot Portfolio.png',
+    image: 'assets/imgs/Snapshoot Portfolio.png',
     desc: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     lang: {
       lang1: 'html',
@@ -63,7 +61,7 @@ const details = [
       list2: 'Lead Developer',
       list3: '2015',
     },
-    image: 'static/imgs/two.png',
+    image: 'assets/imgs/two.png',
     desc: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     lang: {
       lang1: 'html',
@@ -75,7 +73,7 @@ const details = [
   },
 ];
 
-// Add burger==========================================================================
+// ==========================================================================
 const burger = document.querySelector(
   '.header__container__parhead__nav__ul__responsive',
 );
@@ -87,7 +85,7 @@ const email = document.querySelector('.form__control > input#email');
 const form = document.querySelector('form');
 const emailerror = document.querySelector('#emailerror');
 const pardetail = document.querySelector('.pardetail');
-// Add eventlistener===========================================================================
+// ===========================================================================
 burger.addEventListener('click', () => {
   if (burger.classList.contains('change')) {
     burger.classList.remove('change');
@@ -101,7 +99,7 @@ burger.addEventListener('click', () => {
     iwq.classList.add('show');
   }
 });
-// Add function details============================================================================
+// ============================================================================
 
 function detail(c) {
   parpopup.style.display = 'flex';
@@ -132,7 +130,7 @@ function detail(c) {
     </ul>
     <hr />
     <div class="btns live">
-      <button class="live"><span>See live</span> <img src="static/imgs/Icon.png"/></button><button class="live">See source <i class="fab fa-github"></i></button>
+      <button class="live"><span>See live</span> <img src="assets/imgs/Icon.png"/></button><button class="live">See source <i class="fab fa-github"></i></button>
     </div>
   </div>
 </div>
